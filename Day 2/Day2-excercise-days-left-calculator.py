@@ -22,5 +22,8 @@ days_left = max_days - days
 weeks_left = int(max_weeks - weeks)
 months_left = int(max_months - months)
 
-
+# without fstring
 print("You have " + str(days_left) + " days, " + str(weeks_left) + " weeks, and " + str(months_left) + " months left.")
+
+# fstring example 
+print(f"You have  {days_left}  days, {weeks_left} weeks, and {months_left} months left.")

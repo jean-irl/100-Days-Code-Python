@@ -19,4 +19,5 @@ print(2**2)
 # /*
 # +-
 
-print(3*3+3/3-3)
+# PEMDA operation example
+print(3*(3+3)/3-3)
